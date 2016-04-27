@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0861D21CD15CB6005E3D03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0861D11CD15CB6005E3D03 /* AppDelegate.m */; };
+		AE0861D51CD15CB6005E3D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0861D41CD15CB6005E3D03 /* main.m */; };
+		AE0861D71CD15CB6005E3D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0861D61CD15CB6005E3D03 /* Assets.xcassets */; };
+		AE0861DA1CD15CB6005E3D03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0861D81CD15CB6005E3D03 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE0861CD1CD15CB6005E3D03 /* KAnimClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KAnimClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0861D01CD15CB6005E3D03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE0861D11CD15CB6005E3D03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE0861D41CD15CB6005E3D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE0861D61CD15CB6005E3D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE0861D91CD15CB6005E3D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AE0861DB1CD15CB6005E3D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0861CA1CD15CB6005E3D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE0861C41CD15CB6005E3D03 = {
+			isa = PBXGroup;
+			children = (
+				AE0861CF1CD15CB6005E3D03 /* KAnimClock */,
+				AE0861CE1CD15CB6005E3D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0861CE1CD15CB6005E3D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0861CD1CD15CB6005E3D03 /* KAnimClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0861CF1CD15CB6005E3D03 /* KAnimClock */ = {
+			isa = PBXGroup;
+			children = (
+				AE0861D01CD15CB6005E3D03 /* AppDelegate.h */,
+				AE0861D11CD15CB6005E3D03 /* AppDelegate.m */,
+				AE0861D61CD15CB6005E3D03 /* Assets.xcassets */,
+				AE0861D81CD15CB6005E3D03 /* MainMenu.xib */,
+				AE0861DB1CD15CB6005E3D03 /* Info.plist */,
+				AE0861D31CD15CB6005E3D03 /* Supporting Files */,
+			);
+			path = KAnimClock;
+			sourceTree = "<group>";
+		};
+		AE0861D31CD15CB6005E3D03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE0861D41CD15CB6005E3D03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0861CC1CD15CB6005E3D03 /* KAnimClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0861DE1CD15CB6005E3D03 /* Build configuration list for PBXNativeTarget "KAnimClock" */;
+			buildPhases = (
+				AE0861C91CD15CB6005E3D03 /* Sources */,
+				AE0861CA1CD15CB6005E3D03 /* Frameworks */,
+				AE0861CB1CD15CB6005E3D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KAnimClock;
+			productName = KAnimClock;
+			productReference = AE0861CD1CD15CB6005E3D03 /* KAnimClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0861C51CD15CB6005E3D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = khr;
+				TargetAttributes = {
+					AE0861CC1CD15CB6005E3D03 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AE0861C81CD15CB6005E3D03 /* Build configuration list for PBXProject "KAnimClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE0861C41CD15CB6005E3D03;
+			productRefGroup = AE0861CE1CD15CB6005E3D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0861CC1CD15CB6005E3D03 /* KAnimClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0861CB1CD15CB6005E3D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0861D71CD15CB6005E3D03 /* Assets.xcassets in Resources */,
+				AE0861DA1CD15CB6005E3D03 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0861C91CD15CB6005E3D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0861D51CD15CB6005E3D03 /* main.m in Sources */,
+				AE0861D21CD15CB6005E3D03 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE0861D81CD15CB6005E3D03 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0861D91CD15CB6005E3D03 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE0861DC1CD15CB6005E3D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE0861DD1CD15CB6005E3D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE0861DF1CD15CB6005E3D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KAnimClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khr.KAnimClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE0861E01CD15CB6005E3D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = KAnimClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khr.KAnimClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0861C81CD15CB6005E3D03 /* Build configuration list for PBXProject "KAnimClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0861DC1CD15CB6005E3D03 /* Debug */,
+				AE0861DD1CD15CB6005E3D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0861DE1CD15CB6005E3D03 /* Build configuration list for PBXNativeTarget "KAnimClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0861DF1CD15CB6005E3D03 /* Debug */,
+				AE0861E01CD15CB6005E3D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE0861C51CD15CB6005E3D03 /* Project object */;
+}
